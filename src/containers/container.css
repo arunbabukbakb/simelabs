@@ -1,0 +1,18 @@
+div#page_loader {
+    position: fixed;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    right: 0%;
+    background-color: #00000014;
+    z-index: 9999999999;
+  }
+  #page_loader img{
+    height: 100px;
+    vertical-align: middle;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
